@@ -1,9 +1,10 @@
 {
   "name": "zgldh/laravel-kefu5",
   "license": "MIT",
-  "description": "Kefu5 RESTFul API for Laravel 5.1/5.2",
+  "description": "Kefu5/kf5 RESTFul API for Laravel 5.1/5.2",
   "keywords": [
     "laravel",
+    "kf5",
     "kefu5",
     "restful",
     "api",
