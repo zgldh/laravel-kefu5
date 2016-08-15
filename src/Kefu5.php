@@ -112,7 +112,7 @@ class Kefu5
             $urlParameters['rememberMe'] = $urlParameters['rememberMe'] ? 1 : 0;
         }
 
-        $url .= http_build_query($urlParameters);
+        $url .= '?' . http_build_query($urlParameters);
 
         return $url;
     }
