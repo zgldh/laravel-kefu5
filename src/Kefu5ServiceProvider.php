@@ -6,8 +6,6 @@
  * Date: 2016/8/15
  * Time: 16:50
  */
-
-
 use Illuminate\Support\ServiceProvider;
 
 class Kefu5ServiceProvider extends ServiceProvider

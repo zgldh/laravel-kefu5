@@ -13,7 +13,7 @@ Laravel 5 框架专用。
 新增配置
     ```php
         'kefu5' => [
-            'domain' => // 您的云客服平台kf5二级域名地址前缀。如 abc.kf5.com 
+            'domain' => // 您的云客服平台kf5二级域名地址前缀。如 abc.kf5.com 。不要带 http://， 不要带最后的斜杠
             'token' => // 您的云客服平台的API密钥。 如 '60a0319****7fcdf63461c5ad18106'
         ],
     ```

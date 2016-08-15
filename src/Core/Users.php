@@ -187,7 +187,7 @@ class Users extends ClientAbstract
         $this->validatePara('int', $user_id, 'user_id', __METHOD__);
         $url = $url . '/' . $user_id . '/groups';
         $response = Http::send($this->client, $url);
-        return $response;
+        
         return ($this->validateResponse($response, __METHOD__));
     }
 
