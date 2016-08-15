@@ -1,0 +1,26 @@
+{
+  "name": "zgldh/laravel-kefu5",
+  "license": "MIT",
+  "description": "Kefu5 RESTFul API for Laravel 5.1/5.2",
+  "keywords": [
+    "laravel",
+    "kefu5",
+    "restful",
+    "api",
+    "api"
+  ],
+  "authors": [
+    {
+      "name": "zgldh",
+      "email": "zgldh@hotmail.com"
+    }
+  ],
+  "require": {
+    "laravel/framework": "^5.1||^5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "zgldh\\Kefu5\\": "src/"
+    }
+  }
+}
