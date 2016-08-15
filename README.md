@@ -10,7 +10,9 @@ Laravel 5 框架专用。
 
 1. composer require zgldh/laravel-kefu5
 2. ```config/services.php```  
-新增配置
+    
+    新增配置
+
     ```php
         'kefu5' => [
             'domain' => // 您的云客服平台kf5二级域名地址前缀。如 abc.kf5.com 。不要带 http://， 不要带最后的斜杠
