@@ -6,7 +6,7 @@
  * Date: 2016/8/15
  * Time: 16:50
  */
-class Kefu5Client
+class Kefu5
 {
     private $config = null;
 

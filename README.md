@@ -27,7 +27,7 @@ Laravel 5 框架专用。
     ```php
        use zgldh\Kefu5\Kefu5Client;   
   
-       $client = new Kefu5Client()->withAdmin($adminEmail, $adminPassword);
+       $client = (new Kefu5)->withAdmin($adminEmail, $adminPassword);
        $list = $client->tickets()->findAll();
     ```
  
@@ -37,7 +37,7 @@ Laravel 5 框架专用。
     ```php
        use zgldh\Kefu5\Kefu5Client;   
   
-       $client = new Kefu5Client()->withAgent($agentEmail, $agentPassword);
+       $client = (new Kefu5)->withAgent($agentEmail, $agentPassword);
        $list = $client->tickets()->findAll();
     ```
 
@@ -46,7 +46,7 @@ Laravel 5 框架专用。
     ```php
        use zgldh\Kefu5\Kefu5Client;   
   
-       $client = new Kefu5Client()->withEndUser($userEmail);
+       $client = (new Kefu5)->withEndUser($userEmail);
        $list = $client->requests()->findAll();
     ```
  
@@ -58,7 +58,7 @@ Laravel 5 框架专用。
        use zgldh\Kefu5\Kefu5Client;   
   
        $username = \Auth::user()->name;
-       $redirectURL = new Kefu5Client()->sso($username,
+       $redirectURL = (new Kefu5)->sso($username,
            [
                'name'=> '用户昵称|Email',
                'phone'=> '用户的手机',
