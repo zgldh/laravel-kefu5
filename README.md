@@ -1,6 +1,8 @@
 # laravel-kefu5
 客服5的RESTFul API。
-Laravel 5 框架专用。
+可以和 Laravel 5 框架很好的融合。
+
+基于官方 SDK 开发，额外提供 SSO 跳转地址生成功能！
 
 ## 依赖 Requirement
 
@@ -69,6 +71,14 @@ Laravel 5 框架专用。
        
        return redirect($redirectURL);
     ```
+
+## 参考资料
+
+http://developer.kf5.com/restapi/
+
+https://github.com/waterank/KF5SDK-PHP/blob/master/index.php
+
+https://github.com/waterank/KF5SDK-PHP
 
     
 待续
