@@ -9,8 +9,7 @@ Laravel 5 框架专用。
 ## 安装 Install
 
 1. composer require zgldh/laravel-kefu5
-2. ```config/services.php```  
-    
+2. config/services.php 
     新增配置
 
     ```php
