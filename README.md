@@ -27,7 +27,7 @@
 1. 管理员查询工单列表
     
     ```php
-       use zgldh\Kefu5\Kefu5Client;   
+       use zgldh\Kefu5\Kefu5;   
   
        $client = (new Kefu5)->withAdmin($adminEmail, $adminPassword);
        $list = $client->tickets()->findAll();
@@ -37,7 +37,7 @@
 2. 客服查询工单列表
 
     ```php
-       use zgldh\Kefu5\Kefu5Client;   
+       use zgldh\Kefu5\Kefu5;   
   
        $client = (new Kefu5)->withAgent($agentEmail, $agentPassword);
        $list = $client->tickets()->findAll();
@@ -46,7 +46,7 @@
 3. 普通用户查询工单列表
 
     ```php
-       use zgldh\Kefu5\Kefu5Client;   
+       use zgldh\Kefu5\Kefu5;   
   
        $client = (new Kefu5)->withEndUser($userEmail);
        $list = $client->requests()->findAll();
@@ -57,7 +57,7 @@
 5. 得到SSO重定向URL
 
     ```php
-       use zgldh\Kefu5\Kefu5Client;   
+       use zgldh\Kefu5\Kefu5;   
   
        $username = \Auth::user()->name;
        $redirectURL = (new Kefu5)->sso($username,
