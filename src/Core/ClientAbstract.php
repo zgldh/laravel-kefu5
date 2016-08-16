@@ -1,5 +1,6 @@
 <?php namespace zgldh\Kefu5\Core;
 
+use stdClass;
 use zgldh\Kefu5\Client;
 
 abstract class ClientAbstract

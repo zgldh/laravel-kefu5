@@ -1,6 +1,7 @@
 <?php namespace zgldh\Kefu5\Core;
 
 use Exception;
+use stdClass;
 use zgldh\Kefu5\Client;
 
 class Http
