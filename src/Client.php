@@ -140,10 +140,7 @@ class Client
         $this->imports = new Imports($this);
         $this->exports = new Exports($this);
         $this->debug = new Debug();
-        if (stristr($this->subdomain, 'kf5.com'))
-            $this->apiUrl = 'http://' . $this->subdomain . '/api' . $this->apiVer . '/';
-        else
-            $this->apiUrl = 'http://' . $this->subdomain . '.kf5.com/api' . $this->apiVer . '/';
+        $this->apiUrl = 'http://' . $this->subdomain . '/api' . $this->apiVer . '/';
     }
 
     public function __call($name, $arguments)
